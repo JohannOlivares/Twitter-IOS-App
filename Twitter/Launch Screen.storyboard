@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Mnj-uy-pT8">
-                                <rect key="frame" x="87" y="233" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Mnj-uy-pT8">
+                                <rect key="frame" x="57" y="215" width="260" height="237"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mnj-uy-pT8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6dH-iO-N8M"/>
+                            <constraint firstItem="Mnj-uy-pT8" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="215" id="DRu-ro-aug"/>
+                            <constraint firstItem="Mnj-uy-pT8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hFV-9j-E3g"/>
+                            <constraint firstItem="Mnj-uy-pT8" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="57" id="uSF-tR-n9J"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
